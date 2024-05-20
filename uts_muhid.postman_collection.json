@@ -14,7 +14,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"Abdul Muhid Muthado\",\r\n  \"email\": \"muhid@gmail.com\",\r\n  \"password\": \"muhid123\",\r\n  \"password_confirmation\": \"muhid123\"\r\n}\r\n",
+					"raw": "{\r\n  \"name\": \"Abdul Muhid Muthado\",\r\n  \"email\": \"muthadoabdul23@gmail.com\",\r\n  \"password\": \"Abdul777\",\r\n  \"password_confirmation\": \"Abdul777\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -22,15 +22,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/register",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/register",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"register"
@@ -46,7 +44,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"muhid@gmail.com\",\r\n  \"password\": \"muhid123\",\r\n  \"password_confirmation\": \"muhid123\"\r\n}\r\n",
+					"raw": "{\r\n  \"email\": \"admin@mail.com\",\r\n  \"password\": \"admin\",\r\n  \"password_confirmation\": \"admin\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -54,15 +52,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/login",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/login",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"login"
@@ -79,7 +75,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTExODMyLCJleHAiOjE3MTYxMTU0MzIsIm5iZiI6MTcxNjExMTgzMiwianRpIjoiS1VJTU9md1N1VEhpZkV4WSIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BuFLnXeu9bvu1HIZJm2qGXr1wCm5_AEJ_BuGafmA7c4",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTIwMTIxLCJleHAiOjE3MTYxMjM3MjEsIm5iZiI6MTcxNjEyMDEyMSwianRpIjoid0dkVlM5eTA0N0lEQWtRVCIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.opvSZ_S-UEOdLY7GPS0LAnb0Wzho6GgIpILeSrXhiLc",
 							"type": "string"
 						}
 					]
@@ -96,17 +92,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/logout",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.idapi/logout",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"idapi"
 					],
-					"port": "8000",
 					"path": [
-						"api",
 						"logout"
 					]
 				}
@@ -121,7 +114,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTIxMjk4LCJleHAiOjE3MTYxMjQ4OTgsIm5iZiI6MTcxNjEyMTI5OCwianRpIjoidTJDR284eENqTkFDNnBZWiIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Xs96Ix1iNXtVQ1Ry5cc8TjVR9GOmXOLZ3r9S14xlvrM",
 							"type": "string"
 						}
 					]
@@ -138,15 +131,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/categories",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/categories",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"categories"
@@ -166,7 +157,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTE5MzI5LCJleHAiOjE3MTYxMjI5MjksIm5iZiI6MTcxNjExOTMyOSwianRpIjoiMFJEYUp4TU16R25KS1lQRSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BYzzr7RaNVamiJiihkva8JR6fTBPiu32PbB408o4Baw",
 							"type": "string"
 						}
 					]
@@ -183,17 +174,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/categories",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.idapi/categories",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"idapi"
 					],
-					"port": "8000",
 					"path": [
-						"api",
 						"categories"
 					]
 				}
@@ -211,7 +199,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTE5MzI5LCJleHAiOjE3MTYxMjI5MjksIm5iZiI6MTcxNjExOTMyOSwianRpIjoiMFJEYUp4TU16R25KS1lQRSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BYzzr7RaNVamiJiihkva8JR6fTBPiu32PbB408o4Baw",
 							"type": "string"
 						}
 					]
@@ -228,15 +216,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/categories/1",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/categories/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"categories",
@@ -254,7 +240,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTIxMjk4LCJleHAiOjE3MTYxMjQ4OTgsIm5iZiI6MTcxNjEyMTI5OCwianRpIjoidTJDR284eENqTkFDNnBZWiIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Xs96Ix1iNXtVQ1Ry5cc8TjVR9GOmXOLZ3r9S14xlvrM",
 							"type": "string"
 						}
 					]
@@ -263,7 +249,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Nama Kategori\"\r\n}\r\n",
+					"raw": "{\r\n    \"name\": \"Makanan\"  \r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -271,15 +257,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/categories/1",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/categories/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"categories",
@@ -297,7 +281,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTE5MzI5LCJleHAiOjE3MTYxMjI5MjksIm5iZiI6MTcxNjExOTMyOSwianRpIjoiMFJEYUp4TU16R25KS1lQRSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BYzzr7RaNVamiJiihkva8JR6fTBPiu32PbB408o4Baw",
 							"type": "string"
 						}
 					]
@@ -314,15 +298,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/categories/1",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/categories/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"categories",
@@ -340,7 +322,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTI1NjkzLCJleHAiOjE3MTYxMjkyOTMsIm5iZiI6MTcxNjEyNTY5MywianRpIjoiZnJ5ZGNBcjRVblJJV1ZYQiIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.JUrgxbEgJOVJucYSJ8GDmwhCe_Hbktz_GcBpteFo5qk",
 							"type": "string"
 						}
 					]
@@ -349,7 +331,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Caramel Machiato\"  \r\n}",
+					"raw": "{\r\n    \"name\": \"Cimori\",\r\n    \"description\": \"Minuman yang membuat harimu baik\",\r\n    \"price\": 6000, // Harga produk dalam satuan mata uang (misalnya Rupiah)\r\n    \"image\" : \"https://images.app.goo.gl/BhCEM3kxNzEKs1Wb9\",\r\n    \"expired_at\": \"2024-12-31\", // Tanggal kadaluarsa produk (opsional)\r\n    \"category_id\": 2\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -357,15 +339,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/products",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"products"
@@ -385,7 +365,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTE5MzI5LCJleHAiOjE3MTYxMjI5MjksIm5iZiI6MTcxNjExOTMyOSwianRpIjoiMFJEYUp4TU16R25KS1lQRSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BYzzr7RaNVamiJiihkva8JR6fTBPiu32PbB408o4Baw",
 							"type": "string"
 						}
 					]
@@ -394,7 +374,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Nama Kategori\"\r\n}\r\n",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -402,18 +382,17 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/categories",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/products/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
-						"categories"
+						"products",
+						"1"
 					]
 				}
 			},
@@ -427,7 +406,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTEyMDkzLCJleHAiOjE3MTYxMTU2OTMsIm5iZiI6MTcxNjExMjA5MywianRpIjoiUjdiZEdjNEZYOVVNWlpIaiIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.FaViOEbJ6Y96TsC6xh3FjkIzWK4pHa961RkBaRDuils",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzE2MTIyMDAzLCJleHAiOjE3MTYxMjU2MDMsIm5iZiI6MTcxNjEyMjAwMywianRpIjoiZ2IxYXBRUE1jbE40eDQzaSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.wc2LYDcryt0xCckGGaQ4S2DgBPDlKJzhCpikVBpC3_8",
 							"type": "string"
 						}
 					]
@@ -436,7 +415,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"celana jeans\",\r\n    \"description\": \"Deskripsi produak baru\",\r\n    \"price\": 100000, // Harga produk dalam satuan mata uang (misalnya Rupiah) // URL gambar produk (opsional)\r\n    \"expired_at\": \"2024-12-31\", // Tanggal kadaluarsa produk (opsional)\r\n    \"category_id\": 6\r\n}\r\n",
+					"raw": "{\r\n    \"name\": \"Good Time\",\r\n    \"description\": \"Makanan yang membuat waktumu baik\",\r\n    \"price\": 2000,\r\n    \"category_id\": 2\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -444,15 +423,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/1",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/products/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"products",
@@ -487,15 +464,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/1",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/products/1",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"products",
@@ -583,15 +558,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/login/google/callback",
-					"protocol": "http",
+					"raw": "moehid.webframework.my.id/api/login/google/callback",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"moehid",
+						"webframework",
+						"my",
+						"id"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"login",
